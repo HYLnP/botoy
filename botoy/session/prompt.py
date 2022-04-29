@@ -13,7 +13,7 @@ class Prompt:
             user="[user]",
             picUrl=url,
             picBase64Buf=base64,
-            fileMd5=md5,
+            picMd5s=md5,
             content=text,
         )
 
@@ -26,6 +26,6 @@ class Prompt:
             group="[group]",
             picUrl=url,
             picBase64Buf=base64,
-            fileMd5=md5,
+            picMd5s=md5,
             content=text,
         )
